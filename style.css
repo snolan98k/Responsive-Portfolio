@@ -3,7 +3,25 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    background: url("../images/concrete_seamless.png");
+    background: url("https://cdn.pixabay.com/photo/2017/08/27/23/11/background-2687925_1280.jpg");
+}
+
+@media screen and (max-width:980px) {
+    body {
+        background: url("https://cdn.pixabay.com/photo/2017/08/27/23/11/background-2687925_1280.jpg");
+    }
+}
+
+@media screen and (max-width:768px) {
+    body {
+        background: url("https://cdn.pixabay.com/photo/2018/02/17/14/15/pattern-3160023_1280.jpg")
+    }
+}
+
+@media screen and (max-width:640px) {
+    body {
+        background: url("https://cdn.pixabay.com/photo/2017/06/08/17/09/background-2384187_1280.jpg")
+    }
 }
 
 * {
@@ -30,7 +48,7 @@ p:last-child {
 h1, h2, h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
-    color: #4aaaa5;
+    color: palevioletred;
 }
 
 h1 {
@@ -59,16 +77,16 @@ h2, h3 {
 
 #logo {
     float: left;
-    width: 350px;
+    width: 250px;
     height: 90px;
     font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 90px;
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    background: #4aaaa5;
+    background: palevioletred;
 }
 
 nav {
@@ -133,9 +151,10 @@ h3, h2 {
 .work {
     position: relative;
     float: left;
-    width: 274px;
+    width: 250px;
     margin: 20px 0 25px;
     overflow: auto;
+    clear: both;
 }
 
 .work:nth-child(even) {
